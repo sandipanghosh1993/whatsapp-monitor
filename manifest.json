@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Whatsapp Monitor",
+  "version": "0.1",
+  "icons": {
+    "42": "icons/42.png"
+  },
+  "description": "Monitors when someone is online in whatsapp",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["monitor.js"]
+    }
+  ]
+}
