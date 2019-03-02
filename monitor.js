@@ -4,8 +4,7 @@
       setInterval(function() { 
           if(document.querySelector('.O90ur')) {
               if(flag) {
-              	let name = document.querySelectorAll("#main > header > div>div>div>span")[1].textContent;
-              	// document.querySelector('._3XrHh').outerHTML.split(" ")[3].slice(6);
+                let name = document.querySelectorAll("#main > header > div>div>div>span")[1].textContent;
                 let notification = new Notification(name+" is online!");
                 console.log(name);
                 time = Date();
